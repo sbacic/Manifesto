@@ -1,0 +1,16 @@
+first:
+ comment: 
+  'This is a comment block that will be at the top of the cache manifest file.'
+ cache:
+ - js/ #search directory for files
+ - ../../ts/index.html #parse file for links
+ - 'http://localhost/ts/' #parse url for links
+ fallback:
+ network:
+ output: test.manifest #save the manifest to
+ filters:
+  cache:
+  - .mp3 #filter all files with "mp3" in them from the cache section
+  - .ogg 
+  fallback:
+  network:

@@ -1,0 +1,8 @@
+CACHE MANIFEST
+#%(comments)s
+CACHE:
+%(cache)s
+NETWORK:
+%(network)s
+FALLBACK:
+%(fallback)s
